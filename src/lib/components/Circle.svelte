@@ -37,12 +37,12 @@
 
 <style>
   .box {
-    display: grid;
-    place-content: center;
-    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
     font-family: "Manrope", sans-serif;
     color: hsl(220 10% 98%);
-    /* background-color: hsl(220 10% 10%); */
   }
   .svg__box {
     background-color: #ffffff;
