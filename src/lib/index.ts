@@ -1,1 +1,4 @@
-// place files you want to import through the `$lib` alias in this folder.
+import GUI from './gui.svelte'
+import { guiControls } from './store'
+
+export { GUI, guiControls }
