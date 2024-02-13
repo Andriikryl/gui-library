@@ -76,16 +76,4 @@
   .scetion {
     margin-block-end: 20px;
   }
-  .text {
-    padding-inline-start: 10px;
-    border-left: 4px solid #ffc300;
-    color: var(--black, #1b1b1b);
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 30px;
-    letter-spacing: 1.14px;
-    margin-block-end: 20px;
-  }
 </style>
