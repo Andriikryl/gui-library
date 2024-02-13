@@ -1,5 +1,6 @@
 <script lang="ts">
   import { GUI, guiControls } from "$lib/gui";
+  import PlayGround from "./PlayGround.svelte";
 
   const gui = guiControls({
     x: 200,
@@ -14,9 +15,8 @@
 </script>
 
 <section>
-  <div class="box">
+  <PlayGround>
     <GUI controls={gui} />
-
     <div class="svg__box">
       <svg width="800" height="800" viewBox="0 0 400 400">
         <circle
@@ -32,18 +32,10 @@
         />
       </svg>
     </div>
-  </div>
+  </PlayGround>
 </section>
 
 <style>
-  .box {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    font-family: "Manrope", sans-serif;
-    color: hsl(220 10% 98%);
-  }
   .svg__box {
     background-color: #ffffff;
     opacity: 0.5;
