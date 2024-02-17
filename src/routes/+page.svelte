@@ -6,6 +6,7 @@
   import Polygon from "$lib/components/Polygon.svelte";
   import Polyline from "$lib/components/Polyline.svelte";
   import Circle from "../lib/components/Circle.svelte";
+  import Path from "../lib/components/Path.svelte";
 </script>
 
 <BasicCircle />
@@ -13,5 +14,6 @@
 <Line />
 <Coordinates />
 <Polyline />
-<Circle />
 <Polygon />
+<Path />
+<Circle />
